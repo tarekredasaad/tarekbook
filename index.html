@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        .navbar{
+            margin-bottom: -2px;
+            height: 75px;
+            background-color: white;
+            width: 100%;
+            color: black;
+        }
+        ul{
+            list-style: none;
+            display: inline;
+        }
+        li{
+            display: inline;
+        }
+        .icon{
+            position: relative;
+            top: -4px;
+            font-size: 29px;
+            margin-left: 181px;
+        }
+        .icon:hover{
+            background-color: rgb(68 70 71);
+            color: white;
+            padding: 8px;
+        }
+        .messenger{
+            height:25px;
+            width: 25px;
+            margin-bottom: 10px;
+            margin-right: 12px;
+        }
+        .nav_logo_list>li{
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="nav_logo_list">
+            <li><img src="f_logo_RGB-Blue_58.png" alt="" style="border-radius: 50%; margin-top: 9px; height:40px;width: 40px;" ></li>
+            <li><input type="text" placeholder="Search Facebook" style="height: 27px;padding-left:15px; border-radius: 19px; position: relative;top: -14px;"></li>
+        </ul> 
+        <ul>
+            <li class="icon"><i class="fa fa-home" aria-hidden="true"></i></li>
+            <li class="icon"><i class="fa fa-users" aria-hidden="true"></i></li>
+            <li class="icon"><i class="fa fa-desktop" aria-hidden="true"></i></li>
+            
+        </ul>
+        <ul style="float: right; margin-right: 15px;">
+            <li class=""><img src="images/user_male.jpg" alt="" style="border-radius: 50%; height:40px;width: 40px;" ></li>
+            <li class="nav-right">Tariq</li>
+            <li> <img class="messenger" src="images/icons8-facebook-messenger-50.png" alt=""></li>
+            <li><i class="fa fa-bell nav-right" aria-hidden="true"></i> </li>
+            <li><i class="fa fa-list nav-right" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="shortcut">
+            <ul >
+                <li class="shortcut_list"><img src="images/user_male.jpg" alt="" style="border-radius: 50%; height:40px;width: 40px;"><span class="list_word">Tariq Reda</span> </li>
+                <li  class="shortcut_list"><i class="fa fa-users" aria-hidden="true"></i><span class="">Friends</span> </li>
+                <li class="shortcut_list"> <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/mk4dH3FK0jT.png" style="height:40px;width: 40px;" alt=""><span class="list_word">Groups</span> </li>
+                <li class="shortcut_list"> <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/2uPlV4oORjU.png" style="height:40px;width: 40px;" alt=""><span class="list_word">Saved</span> </li>
+                <li class="shortcut_list"> <img src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png" style="height:40px;width: 40px;" alt=""><span class="list_word">Marketplace</span> </li>
+                <li class="shortcut_list"> <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/A1HlI2LVo58.png" style="height:40px;width: 40px;" alt=""><span class="list_word">Watch</span> </li>
+                <li class="shortcut_list"> <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/AYj2837MmgX.png" style="height:40px;width: 40px;" alt=""><span class="list_word">Memories</span> </li>
+            </ul>
+            <!-- <hr> -->
+            <div class="yourshortcut">
+                <h2>Your Shortcut</h2>
+                <div class="yourshortcut_detail">
+                    <img src="images/11.jpg" alt="ads"> 
+                    <span>Lorem ipsum</span>
+                    <a href="#">Lorem ipsum.com</a>
+                </div>
+                <div class="yourshortcut_detail">
+                    <img src="images/13.jpg" alt="ads"> 
+                    <span>Lorem ipsum</span>
+                    <a href="#">Lorem ipsum.com</a>
+                </div>
+                <div class="yourshortcut_detail">
+                    <img src="images/14.jpg" alt="ads"> 
+                    <span>Lorem ipsum</span>
+                    <a href="#">Lorem ipsum.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box_stores">
+                <div>
+                    <button class="story_head">Stories</button>
+                    <button class="story_head">Reels</button>
+                    <button class="story_head">Rooms</button>
+                </div>
+                <div class="story_imgs">
+                    <img class="default_story_imgs" src="images/user_male.jpg" alt="">
+                    <i class="fas fa-plus-circle fs-3"></i>
+                    <p class="create_story"> Create Story</p>
+                </div>
+                <div class="story_imgs">
+                    <img class="sub_story_imgs" src="images/12.jpg" alt="">
+                    <!-- <i class="fas fa-plus-circle fs-3"></i> -->
+                    <span ><img class="small_img" src="https://source.unsplash.com/random/1" alt=""></span>
+                    <p class="sub_create_story">  Story</p>
+                </div>
+                <div class="story_imgs">
+                    <img class="sub_story_imgs" src="https://source.unsplash.com/random/6" alt="">
+                    <span ><img class="small_img" src="https://source.unsplash.com/random/6" alt=""></span>
+                    <!-- <i class="fas fa-plus-circle fs-3"></i> -->
+                    <p class="sub_create_story">  Story</p>
+                </div>
+                <div class="story_imgs">
+                    <img class="sub_story_imgs" src="https://source.unsplash.com/random/7" alt="">
+                    <span ><img class="small_img" src="https://source.unsplash.com/random/7" alt=""></span>
+                    <!-- <i class="fas fa-plus-circle fs-3"></i> -->
+                    <p class="sub_create_story">  Story</p>
+                </div>
+                <div class="story_imgs">
+                    <img class="sub_story_imgs" src="https://source.unsplash.com/random/5" alt="">
+                    <span ><img class="small_img" src="https://source.unsplash.com/random/5" alt=""></span>
+                    <!-- <i class="fas fa-plus-circle fs-3"></i> -->
+                    <p class="sub_create_story">  Story</p>
+                </div>
+                <div class="story_imgs">
+                    <img class="sub_story_imgs" src="https://source.unsplash.com/random/4" alt="">
+                    <span ><img class="small_img" src="https://source.unsplash.com/random/4" alt=""></span>
+                    <!-- <i class="fas fa-plus-circle fs-3"></i> -->
+                    <p class="sub_create_story">  Story</p>
+                </div>
+                <div class="story_imgs">
+                    <img class="sub_story_imgs" src="https://source.unsplash.com/random/3" alt="">
+                    <span ><img class="small_img" src="https://source.unsplash.com/random/3" alt=""></span>
+                    <!-- <i class="fas fa-plus-circle fs-3"></i> -->
+                    <p class="sub_create_story">  Story</p>
+                </div>
+                <div class="story_imgs">
+                    <img class="sub_story_imgs" src="https://source.unsplash.com/random/2" alt="">
+                    <span ><img class="small_img" src="https://source.unsplash.com/random/2" alt=""></span>
+                    <!-- <i class="fas fa-plus-circle fs-3"></i> -->
+                    <p class="sub_create_story">  Story</p>
+                </div>
+            </div>
+            <div class="boxtowrite">
+                <img src="images/user_male.jpg" alt="" style="border-radius: 50%; height:40px;width: 40px;">
+                <input type="text" placeholder="    what's in your mind" style="height: 27px; width: 85%; border-radius: 19px; position: relative;top: -14px;">
+                <hr>
+                <div class="boxtowrite_icon">
+                   <span class=""> <img src="images/icons8-live-video-on-30.png" alt=""/> video &nbsp</span>
+                    <!-- <i class="fas fa-photo-video me-2 text-success" aria-hidden="true"></i> -->
+                    <span class=""><img src="images/icons8-photos-30.png" alt=""/> photo </span>
+                    <span class=""><img src="images/icons8-happy-24.png" alt=""/> feeling </span>
+                </div>
+            </div>
+
+            <div class="content_post">
+                <img src="images/user_male.jpg" alt="" style="border-radius: 50%; height:40px;width: 40px;">
+                <span class="post_data">Tariq reda <span class="date">20/10/2022</span> </span> 
+                    <i class="fas fa-ellipsis-h" style="float: right; color: white;"></i>
+                    <p>Welcome Everybody</p>
+                    <img class="post_img" src="images/1.jpg" alt="">
+                    <hr>
+                    <div class="like">
+                        <i class="fas fa-thumbs-up me-3"  style="color: rgb(240 242 245);"> </i> <span>Like</span> 
+                    </div>
+                    <div class="Comment">
+                        <i class="fas fa-comment-alt me-3" style="color:rgb(240 242 245); "> </i> <span>Comment</span> 
+                    </div>
+                    <hr>
+                    <div class="boxtocomment">
+                        <img src="images/user_male.jpg" alt="" style="border-radius: 50%; height:40px;width: 40px;">
+                        <div class="comment_content">
+                            <span>Avatar</span>
+                            <div>this post is cool </div>
+                            <p>like  Reply  1 hour</p>
+                        </div>
+                        <div class="write_comment">
+                            <img src="images/user_male.jpg" alt="" style="border-radius: 50%; height:40px;width: 40px;">
+                            <input type="text" placeholder="    write your comment" style="height: 27px; width: 85%; border-radius: 19px; position: relative;top: -14px;">
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+        <div class="sponsor">
+            <div class="sponsor_content">
+                <h2>Sponsored</h2>
+                <div class="sponsor_detail">
+                    <img src="images/11.jpg" alt="ads"> 
+                    <span>Lorem ipsum</span>
+                    <a href="#">Lorem ipsum.com</a>
+                    <span class="sponsor_detail_icon"><i class="fas fa-ellipsis-h"></i></span>
+                </div>
+                <div class="sponsor_detail">
+                    <img src="images/13.jpg" alt="ads"> 
+                    <span>Lorem ipsum</span>
+                    <a href="#">Lorem ipsum.com</a>
+                    <span class="sponsor_detail_icon"><i class="fas fa-ellipsis-h"></i></span>
+                </div>
+            </div>
+            <div class="contact_title">
+                Contacts 
+                <span> 
+                    <i class="fas fa-ellipsis-h"></i>
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-video"></i>
+                </span>
+            </div>
+            <ul class="contact">
+                <li class="contact_list"><img src="images/user_male.jpg" alt="" > <span class="list_word">Tariq Reda</span></li>
+                <li class="contact_list"><img src="images/user_male.jpg" alt="" > <span class="list_word">Ahmed</span></li>
+                <li class="contact_list"><img src="images/user_female.jpg" alt="" > <span class="list_word">Asmaa</span></li>
+                <li class="contact_list"><img src="images/user_male.jpg" alt="" > <span class="list_word">Mohammed</span></li>
+                <li class="contact_list"><img src="images/user_female.jpg" alt="" > <span class="list_word">Mona</span></li>
+                <li class="contact_list"><img src="images/user_male.jpg" alt="" ><span class="list_word">Hassan</span></li>
+                <li class="contact_list"><img src="images/user_male.jpg" alt="" > <span class="list_word">Waleed</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
